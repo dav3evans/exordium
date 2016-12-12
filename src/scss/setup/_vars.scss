@@ -1,0 +1,78 @@
+//==========================================================================
+//   VARIABLES
+//==========================================================================
+
+	//
+	// Define any global variables in here.
+	// 
+
+	// Colours
+	
+	$colour-primary: #b8d260;
+	$colour-black: #000000;
+	$colour-white: #ffffff;
+
+	// Layout
+	$page-width: 1200px;
+	$grid-gutter-width: 20px !default;
+	$spacing: $grid-gutter-width; 
+
+	// Breakpoints
+
+	// Extra small screen / phone
+	//** Deprecated `$screen-xs` as of v3.0.1
+	$screen-xs:                  400px !default;
+	//** Deprecated `$screen-xs-min` as of v3.2.0
+	$screen-xs-min:              $screen-xs !default;
+	//** Deprecated `$screen-phone` as of v3.0.1
+	$screen-phone:               $screen-xs-min !default;
+
+	// Small screen / tablet
+	//** Deprecated `$screen-sm` as of v3.0.1
+	$screen-sm:                  700px !default;
+	$screen-sm-min:              $screen-sm !default;
+	//** Deprecated `$screen-tablet` as of v3.0.1
+	$screen-tablet:              $screen-sm-min !default;
+
+	// Medium screen / desktop
+	//** Deprecated `$screen-md` as of v3.0.1
+	$screen-md:                  1000px !default;
+	$screen-md-min:              $screen-md !default;
+	//** Deprecated `$screen-desktop` as of v3.0.1
+	$screen-desktop:             $screen-md-min !default;
+
+	// Large screen / wide desktop
+	//** Deprecated `$screen-lg` as of v3.0.1
+	$screen-lg:                  1200px !default;
+	$screen-lg-min:              $screen-lg !default;
+	//** Deprecated `$screen-lg-desktop` as of v3.0.1
+	$screen-lg-desktop:          $screen-lg-min !default;
+
+	// So media queries don't overlap when required, provide a maximum
+	$screen-xs-max:              ($screen-sm-min - 1) !default;
+	$screen-sm-max:              ($screen-md-min - 1) !default;
+	$screen-md-max:              ($screen-lg-min - 1) !default;
+
+	// Breakpoints
+	$palm-start: $screen-xs+100px; 
+	$lap-start:  $screen-sm;
+	$desk-start: $screen-md;
+
+	// Timing
+	$animation-time: .2s;
+	$animation-time--shorter: $animation-time/3; 
+	$easing: ease-in-out;
+
+	// Positioning
+	$zindex-super: 9999;
+	$zindex-higher: 20;
+	$zindex-high: 10;
+	$zindex-mid: 5;
+	$zindex-low: 2;
+	
+	// Misc
+	$border-radius: 4px; 
+	$border-weight: 3px; 
+	$box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+	//Note: Typography variables are set in /typography/_base.scss

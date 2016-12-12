@@ -1,0 +1,124 @@
+//==========================================================================
+//   BASE
+//==========================================================================
+
+    //
+    // Define all your typography variables here. Remember to comment all relevant information.
+    //
+
+    // Stacks
+    $font-primary: 'karlsenround',sans-serif;
+
+    // Weights
+    $weight-black: 600; 
+    $weight-bold: 500;
+    $weight-normal: 400; 
+    $weight-light: 300; 
+    $weight-lighter: 200; 
+
+    // Base
+    $size-smallest: 12px;
+    $size-smaller: 14px;
+    $size-base: 22px;
+    $size-larger: 22px;
+    $size-largest: 26px;
+    $size-extra: 32px; 
+    $line-height-base: 1.5em;
+    $line-height-tighter: 1.1em;
+    $line-height-expand: 1.6em;
+
+    // Headings
+    $size-h1: 48px;
+    $size-h2: 40px;
+    $size-h3: 32px;
+    $size-h4: 24px;
+    $size-h5: 20px;
+    $size-h6: 16px;
+
+
+    // Defining your typography source.
+
+    // $font-filename: file-name; 
+
+    // @font-face {
+    //     font-family: '$font-filename';
+    //     src: url('$font-filename.eot');
+    //     src: url('$font-filename.eot?#iefix') format('embedded-opentype'),
+    //          url('$font-filename.woff') format('woff'),
+    //          url('$font-filename.ttf') format('truetype'),
+    //          url('$font-filename.svg#$font-filename') format('svg');
+    //     font-weight: normal;
+    //     font-style: normal;
+    // }
+
+    // Sets the global style for the site.
+    body {
+    	font-family: $font-primary; 
+    	font-size: $size-base - 4px;
+    	line-height: $line-height-base; 
+    	color: $colour-white;
+    
+        @media (min-width: $desk-start) {
+            font-size: $size-base;
+        }
+
+    }
+
+
+    a, a:hover, a:active, a:visited {
+        color: $colour-primary;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+    // Font kits
+
+// Bold -  For headings - Consider this font weight 700/bold
+@font-face {
+    font-family: 'karlsenround';
+    src: url('fonts/karlsen/karlsenround-bold-webfont.eot');
+    src: url('fonts/karlsen/karlsenround-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karlsen/karlsenround-bold-webfont.woff2') format('woff2'),
+         url('fonts/karlsen/karlsenround-bold-webfont.woff') format('woff'),
+         url('fonts/karlsen/karlsenround-bold-webfont.ttf') format('truetype'),
+         url('fonts/karlsen/karlsenround-bold-webfont.svg#karlsenround-bolduploadedfile') format('svg');
+    font-weight: 700;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+// Regular - For body text in general - Consider this font weight normal/400
+
+@font-face {
+    font-family: 'karlsenround';
+    src: url('fonts/karlsen/karlsenround-regular-webfont.eot');
+    src: url('fonts/karlsen/karlsenround-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karlsen/karlsenround-regular-webfont.woff2') format('woff2'),
+         url('fonts/karlsen/karlsenround-regular-webfont.woff') format('woff'),
+         url('fonts/karlsen/karlsenround-regular-webfont.ttf') format('truetype'),
+         url('fonts/karlsen/karlsenround-regular-webfont.svg#karlsenround-reguuploadedfile') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+// Medium - For other heading blocks that are in between bold / regular - Consider this font weight 500
+
+@font-face {
+    font-family: 'karlsenround';
+    src: url('fonts/karlsen/karlsenround-medium-webfont.eot');
+    src: url('fonts/karlsen/karlsenround-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/karlsen/karlsenround-medium-webfont.woff2') format('woff2'),
+         url('fonts/karlsen/karlsenround-medium-webfont.woff') format('woff'),
+         url('fonts/karlsen/karlsenround-medium-webfont.ttf') format('truetype'),
+         url('fonts/karlsen/karlsenround-medium-webfont.svg#karlsenround-mediuploadedfile') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}

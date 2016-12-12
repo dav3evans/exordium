@@ -1,0 +1,70 @@
+// //==========================================================================
+// //   COPY
+// //==========================================================================
+
+// 	//
+// 	// Body copy styling goes in here. Remember to comment all relevant information.
+// 	//
+
+// 	// Highlight colours
+	
+// 	::selection {
+// 	  background: $colour-orchid; 
+// 	  color: $colour-white; 
+// 	}
+// 	::-moz-selection {
+// 	  background: $colour-orchid; 
+// 	  color: $colour-white; 
+// 	}
+
+// 	// Styles paragraphs
+// 	p,
+// 	.p {
+// 		@include text-spacing;
+// 	}
+
+// 	.paragraph--lede {
+// 		font-size: $size-h5; 
+// 		font-weight: $weight-normal; 
+// 		line-height: $line-height-expand; 
+// 		margin-bottom: $spacing; 
+		
+// 		@media all and (min-width: $palm-start) {
+// 			font-size: $size-larger;
+// 			font-weight: $weight-normal; 
+// 		}
+// 	}
+
+// 	.paragraph--small {
+// 		font-size: $size-smaller;
+// 	}
+	
+// 	address {
+// 		font-style: normal; 	
+// 	}
+	
+// 	.meta {
+// 		color: $colour-schooner;
+// 		font-weight: $weight-bold;
+// 		font-size: $size-smaller; 
+// 	}
+	
+	
+// // Magento
+
+// .success {
+// 	color: $colour-success; 
+// }
+
+// .cms-community,
+// .cms-contact {
+// 	.std {
+// 		p {
+// 			text-align: center;
+			
+// 			&:first-child {
+// 				@extend .paragraph--lede; 
+// 			}
+// 		}
+// 	}
+// }

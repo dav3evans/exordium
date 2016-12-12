@@ -1,0 +1,28 @@
+//==========================================================================
+//   BUTTONS
+//==========================================================================
+
+	.button,
+	a.button,
+	button,
+	input[type="button"],
+	input[type="submit"] {
+		
+		// Base button styles here
+
+		&:hover,
+		&:focus {
+		
+		}
+
+		// Additional button style
+		&.button--secondary {
+
+
+			&:hover,
+			&:focus {
+		
+			}
+		} // Close secondary button
+
+	} // Close base button

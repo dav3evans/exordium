@@ -1,0 +1,68 @@
+//==========================================================================
+//   HEADINGS
+//==========================================================================
+
+	//
+	// All heading styles to go in here. Remember to comment all relevant information.
+	//
+
+	// Styles all headings to be reset to a neutral state.
+	h1,
+	.h1,
+	h2,
+	.h2,
+	h3,
+	.h3,
+	h4,
+	.h4,
+	h5,
+	.h5,
+	h6,
+	.h6 {
+		font-weight: $weight-normal; 
+		margin: 0; 
+		line-height: $line-height-tighter; 
+	}
+
+	// Styles headers
+	h1,
+	.h1 {
+
+		color: $colour-primary;
+		font-size: $size-h3;
+		// margin-bottom: $spacing;
+		
+			@media all and (min-width: $palm-start) {}
+		
+			@media all and (min-width: $lap-start) {}
+
+			@media all and (min-width: $desk-start) {
+				font-size: $size-h1;
+			}	
+	}
+
+	h2,
+	.h2 {
+
+	}
+
+	h3,
+	.h3 {
+
+	}
+
+	h4,
+	.h4 {
+
+	}
+
+	h5,
+	.h5 {
+
+	}
+
+	h6,
+	.h6 {
+
+	}
+	

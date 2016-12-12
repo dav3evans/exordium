@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "components.css",
+	"sources": [
+		"../../src/scss/components/components.scss",
+		"../../src/scss/components/_navigation.scss",
+		"../../src/scss/components/_content.scss",
+		"../../src/scss/components/_footer.scss"
+	],
+	"mappings": "AEIA,AAAA,GAAG,CAAC;EACH,SAAS,EAAE,IAAK,GAChB",
+	"names": []
+}

@@ -1,0 +1,88 @@
+// //==========================================================================
+// //   LISTS
+// //==========================================================================
+
+// 	//
+// 	// Title. Remember to comment all relevant information.
+// 	//
+
+// 	// Default list (+ nested) styles
+
+// 	ul,
+// 	ol {
+// 		padding-left: $spacing;
+// 		@include text-spacing;
+// 	}
+
+// 	ul {
+// 		list-style-type: circle; 
+		
+// 		ul {
+// 			list-style-type: square; 
+// 		}
+// 	}
+
+// 	ol {
+// 		list-style-type: decimal; 
+		
+// 		ol {
+// 			list-style-type: lower-alpha; 
+// 		}
+// 	}
+
+// 		li {
+// 			margin-bottom: $spacing; 
+// 		}
+		
+		
+// 	// Use to modify list behaviour.
+// 	.list--unstyled {
+// 		list-style-type: none !important;
+// 		padding: 0;
+// 		margin: 0; 
+		
+// 		ul,
+// 		ol {
+// 			list-style-type: none !important;
+// 			padding: 0;
+// 			margin: 0 ; 
+// 		}
+		
+// 		li {
+// 			line-height: $line-height-base; 
+// 			margin: 0; 
+// 		}
+// 	}
+
+// 	.list--inline {
+// 		list-style-type: none !important;
+// 		padding: 0;
+		
+// 		li {
+// 			display: inline-block; 
+// 			margin-right: $spacing/2; 
+// 		}
+// 	}
+	
+// 	.list--links {
+// 		@extend .list--unstyled; 
+// 		text-transform: uppercase; 
+// 		font-weight: $weight-bold; 
+		
+// 		li {
+// 			margin-bottom: $spacing/2 !important; 
+			
+// 			&.current {
+// 				color: $colour-orchid--heavy;
+// 			}
+// 		}
+		
+// 		a {
+// 			color: $colour-fuscousgray; 
+// 			text-decoration: none; 
+			
+// 			&:hover {
+// 				color: $colour-orchid--heavy; 
+// 			}
+// 		}
+// 	}

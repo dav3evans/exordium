@@ -1,0 +1,43 @@
+//==========================================================================
+//   BLOCKQUOTES
+//==========================================================================
+
+	//
+	// This is where we'll style blockquotes. Remember to comment all relevant information.
+	//
+
+	// .blockquote,
+	// .std blockquote {
+	//   padding: $spacing $spacing/2; 
+	//   @include text-spacing;
+	//   border-top: $border-weight solid $colour-polo; 
+	//   border-bottom: $border-weight solid $colour-polo; 
+	  
+	// 	p {
+	// 		@extend .paragraph--lede; 
+	// 		color: $colour-fuscousgray; 
+	// 		margin: 0 0 $spacing/3 0 !important; 
+	// 	}
+	  
+	// 	cite {
+	// 		font-style: normal;
+	// 		text-align: right;  
+	// 		display: block; 
+	// 		font-weight: $weight-bold;
+	// 		color: $colour-polo--heavy; 
+			
+	// 		p + & {
+	// 			margin-top: $spacing; 
+	// 		}
+	// 	}
+	// }
+	
+	// .std blockquote {
+	// 	margin: 0 0 $spacing 0;
+		
+	// 	@media all and (min-width: $palm-start) {
+	// 		float: left; 
+	// 		width: 45%; 
+	// 		margin: 0 $spacing $spacing 0;
+	// 	}
+	// }
