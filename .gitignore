@@ -1,0 +1,4 @@
+# Base gitignore file!
+
+#Mac
+.DS_Store
