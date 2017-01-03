@@ -1154,6 +1154,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+body {
+  background: red; }
+
 img {
   max-width: 100%; }
 
